@@ -1,4 +1,4 @@
-# Project 07: Dual PID Speed Control for Differential Mobile Robot
+# Project 07: Dual PID Speed Control for Differential Wheeled Robot
 
 This repository contains the development, parametric tuning, and experimental validation of a closed-loop **PID (Proportional-Integral-Derivative)** control system for independent wheel speed control on a mobile robot.
 
