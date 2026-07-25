@@ -45,5 +45,8 @@ ax2.grid(True, linestyle='--', alpha=0.7)
 
 plt.tight_layout()
 
+# Guardar o gráfico duplo em ficheiro
+plt.savefig('desempenho_pid.png', dpi=300, bbox_inches='tight')
+
 # Exibir os gráficos no ecrã
 plt.show()

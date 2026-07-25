@@ -80,5 +80,9 @@ ax3.grid(True, linestyle='--', alpha=0.7)
 
 plt.tight_layout()
 
+# Guardar as duas imagens do ensaio Kp
+fig1.savefig('ensaio_kp_continuado.png', dpi=300, bbox_inches='tight')
+fig2.savefig('ensaio_kp_comparacao.png', dpi=300, bbox_inches='tight')
+
 # Exibir os gráficos no ecrã
 plt.show()
