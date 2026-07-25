@@ -40,7 +40,7 @@ The system tuning was performed sequentially by evaluating the individual impact
 
 * **Fixed Test Parameters:** $K_i = 0.00$, $K_d = 0.00$
 
-![Continuous Kp Test](Kp_value_testing/kp_test_continuous.png)
+![Continuous Kp Test](kp_value_testing/kp_test_continuous.png)
 
 #### Graph Analysis & Value Selection:
 * **Observed Behavior:** Values of $K_p$ ranging from $1.00$ to $3.00$ were tested. With $K_p = 1.00$, the system response is sluggish and settles at a value significantly below the 100 RPM Setpoint (~60 RPM), demonstrating a high steady-state error. As $K_p$ is increased to $2.50$ and $3.00$, the rise time becomes faster; however, pronounced overshoots (>120 RPM) appear and the PWM control signal suffers violent startup saturation spikes.
@@ -52,7 +52,7 @@ The system tuning was performed sequentially by evaluating the individual impact
 
 * **Fixed Test Parameters:** $K_p = 2.00$, $K_d = 0.00$
 
-![Continuous Ki Test](Ki_value_testing/ki_test_continuous.png)
+![Continuous Ki Test](ki_value_testing/ki_test_continuous.png)
 
 #### Graph Analysis & Value Selection:
 * **Observed Behavior:** Keeping $K_p = 2.00$ and $K_d = 0.00$, values of $K_i$ between $0.50$ and $2.00$ were evaluated. With $K_i = 0.50$, the integral action accumulates error slowly, taking several seconds to drive the motor to the Setpoint. Conversely, higher values such as $K_i = 1.50$ and $K_i = 2.00$ lead to excessive error accumulation, causing high speed peaks (>125 RPM) and transient instability (severe windup).
