@@ -1,4 +1,4 @@
-Tempo_ms,Setpoint,RPM_Esq,RPM_Dir,PWM_Esq,PWM_Dir
+Time_ms,Setpoint,Left_RPM,Right_RPM,Left_PWM,Right_PWM
 2149,100.0,0.0,0.0,255,255
 2299,100.0,30.0,33.0,159,152
 2449,100.0,81.0,77.1,53,63

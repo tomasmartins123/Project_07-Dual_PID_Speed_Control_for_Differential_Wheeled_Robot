@@ -1,4 +1,4 @@
-Tempo_ms,Ensaio,Ki,Setpoint,RPM_Medido,PWM_Out
+Time_ms,Trial,Ki,Setpoint,Measured_RPM,PWM_Out
 2149,1,0.50,100.0,0.0,207
 2299,1,0.50,100.0,39.0,134
 2449,1,0.50,100.0,93.3,25
